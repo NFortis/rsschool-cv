@@ -53,10 +53,10 @@
  
  Создание и введение проектов в ecommerce:
  
- *alvi.org.ua СMS Opencart (продажа верхней отдежды) 
- *puer.net.ua СMS (продажа чая)
- *mens-bags.com.ua СMS Joomla+ Virtuemart (продажа мужских сумок) 
- *jz.com.ua СMS Opencart (продажа разной галантереи) 
+ * alvi.org.ua СMS Opencart (продажа верхней отдежды) 
+ * puer.net.ua СMS (продажа чая)
+ * mens-bags.com.ua СMS Joomla+ Virtuemart (продажа мужских сумок) 
+ * jz.com.ua СMS Opencart (продажа разной галантереи) 
 
 ####Образование
 
