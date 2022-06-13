@@ -7,60 +7,35 @@
     scroll-behavior: smooth; 
   }
 
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-width: 320px;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    font-family: font-family: 'Signika', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #4d1423;
-  }
 
   .container {
     max-width: 1440px;
     margin: 0 auto;
   }
-  
-  .nav-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
 
-  .nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-    transition: .3s;
-    
-  }
-
-  .main-container {
-    display: flex;
-    
-  }
+ body {font-family: font-family: 'Signika', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+color: #4d1423;}
   
-  .about_my {
-
-  }
-  html {
-    scroll-behavior: smooth; 
-  }
-
-  section {
-    display: flex;
-    margin: 100px;
-  }
   
-  .about-me {margin-left: 50px;}
+  .nav-menu {width: 1440px;height: 46px;}
+  .nav-list {float: left;
+            margin: auto;}
   
+  .nav-item {
+    list-style: none; /*убираем маркеры списка*/
+    float: left;
+    padding: 0 0 0 9px;
+    margin: 1px 2px 0 0;
+  }
+  .nav-link {text-decoration: none;} /*убираем подчеркивание текста ссылок*/
 
-  
+ .img-avatar {float: left;}
+
+   
+
+
 
 
