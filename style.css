@@ -29,7 +29,7 @@ body {
 
 
 .nav-menu {
-  width: 1440px;
+  width: 100%;
   height: 46px;
 }
 
@@ -58,9 +58,7 @@ body {
 
 /*убираем подчеркивание текста ссылок*/
 
-.img-avatar {
-  float: left;
-}
+
 
 footer {
   height: 200px;
@@ -73,6 +71,7 @@ footer {
 
 .avatar {
   margin-top: 25px;
+  border-radius: 15%;
 }
 
 
@@ -101,3 +100,10 @@ header {
   padding: 20px;
   border-radius: 15%;
 }
+/*#beige-col {background-color: beige;
+
+  border-radius: 15%;
+padding-bottom: 30px;}*/
+
+#beige-col-1 {
+  padding-bottom: 30px;}
