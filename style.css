@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  ;
 }
 
 html {
@@ -23,6 +22,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
 }
 
 
@@ -47,6 +49,11 @@ body {
 
 .nav-link {
   text-decoration: none;
+  border: 1px solid #4d1423;
+  border-radius: 15%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 40px;
 }
 
 /*убираем подчеркивание текста ссылок*/
@@ -59,11 +66,38 @@ footer {
   height: 200px;
 }
 
-.gh-link a{display: inline-block;padding-left: 25px;}
+.gh-link a {
+  display: inline-block;
+  padding-left: 450px;
+}
+
+.avatar {
+  margin-top: 25px;
+}
+
 
 
 
 .container-footer {
   display: flex;
   justify-content: space-between;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 15%;
+  background-color: beige;
+}
+
+.h1-accent {
+  color: #e11e52;
+}
+
+header {
+  background-color: beige;
+
+}
+
+.code-ex {
+  background-color: beige;
+  padding: 20px;
+  border-radius: 15%;
 }
